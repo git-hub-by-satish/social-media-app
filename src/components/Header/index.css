@@ -1,0 +1,42 @@
+* {
+    font-family: "Roboto";
+  }
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 90px;
+    width: 100vw;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.header-logo {
+    font-size: 48px;
+    color: #ff1d58;
+    font-weight: 700;
+    margin-left: 48px;
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+.sign-out-btn {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: small;
+    color: #ffffff;
+    background-color: #0384fc;
+    margin-right: 48px;
+    cursor: pointer;
+    font-size: smaller;
+}
+.profile-btn {
+    border: none;
+    background-color: transparent;
+}
